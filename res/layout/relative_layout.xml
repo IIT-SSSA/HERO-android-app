@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:id="@+id/relativeLayout1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+                	
+	        <TextView android:text="progress displayed here" 
+	            android:textAppearance="?android:attr/textAppearanceLarge" 
+	            android:id="@+id/textViewProgressMotor1" 
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content" 
+	            android:layout_marginLeft="10dp" 
+	            android:layout_marginRight="10dp">            
+	        </TextView>
+	        
+	        
+	        <SeekBar android:id="@+id/seekBarMotor1" 
+	            android:max="100" 
+	            android:layout_width="match_parent" 
+	            android:layout_height="wrap_content" 
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="10dp" 
+	            android:layout_marginRight="10dp"
+	            android:progress="0"
+	        	android:secondaryProgress="0">            
+	        </SeekBar>
+		                	            
+
+<!--         Motor 2 -->
+
+
+	        <TextView android:text="progress displayed here" 
+	            android:textAppearance="?android:attr/textAppearanceLarge" 
+	            android:id="@+id/textViewProgressMotor2"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content" 
+	            android:layout_marginLeft="10dp" 
+	            android:layout_marginRight="10dp">            
+	        </TextView>
+	        
+	        
+	        <SeekBar android:id="@+id/seekBarMotor2" 
+	            android:max="100" 
+	            android:layout_width="match_parent" 
+	            android:layout_height="wrap_content" 
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="10dp" 
+	            android:layout_marginRight="10dp"
+	            android:progress="0"
+	        	android:secondaryProgress="0">            
+	        </SeekBar>
+        
+<!--         Motor 3 -->
+
+
+	        <TextView android:text="progress displayed here" 
+	            android:textAppearance="?android:attr/textAppearanceLarge" 
+	            android:id="@+id/textViewProgressMotor3"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content" 
+	            android:layout_marginLeft="10dp" 
+	            android:layout_marginRight="10dp">            
+	        </TextView>
+	        
+	        
+	        <SeekBar android:id="@+id/seekBarMotor3" 
+	            android:max="100" 
+	            android:layout_width="match_parent" 
+	            android:layout_height="wrap_content" 
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="10dp" 
+	            android:layout_marginRight="10dp"
+	            android:progress="0"
+	        	android:secondaryProgress="0">            
+	        </SeekBar>
+        
+<!--         Motor 4 -->
+
+
+	        <TextView android:text="progress displayed here" 
+	            android:textAppearance="?android:attr/textAppearanceLarge" 
+	            android:id="@+id/textViewProgressMotor4"
+	            android:layout_height="wrap_content" 
+	            android:layout_width="wrap_content" 
+	            android:layout_marginLeft="10dp" 
+	            android:layout_marginRight="10dp">            
+	        </TextView>
+	        
+	        
+	        <SeekBar android:id="@+id/seekBarMotor4" 
+	            android:max="100" 
+	            android:layout_width="match_parent" 
+	            android:layout_height="wrap_content" 
+	            android:layout_marginTop="5dp"
+	            android:layout_marginLeft="10dp" 
+	            android:layout_marginRight="10dp"
+	            android:progress="0"
+	        	android:secondaryProgress="0">            
+	        </SeekBar>
+
+	        	        
+	        <LinearLayout
+	         	android:layout_width="fill_parent" 
+		        android:layout_height="fill_parent"
+		        android:layout_marginTop="10dp"
+		        android:orientation="horizontal">
+
+				<Button
+				    android:id="@+id/button_set"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"			    
+				    android:text="@string/button_set"
+				    android:onClick="setMotors" />
+		        
+	        	<EditText
+				    android:id="@+id/set_button_text"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:hint="@string/search_hint"
+				    android:inputType="text"/>	      
+				<Button
+				    android:id="@+id/button_reset"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"			    
+				    android:text="@string/button_reset"
+				    android:onClick="resetMotors" />
+				<Button
+				    android:id="@+id/button_send"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"			    
+				    android:text="@string/button_send"
+				    android:onClick="send" />													        		        		        				          	            
+	        </LinearLayout>
+	            
+
+        	
+    </LinearLayout>
